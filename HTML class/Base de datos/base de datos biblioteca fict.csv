@@ -1,0 +1,23 @@
+table-libros,,
+campo,tipo de campo ,descripcion
+ID del libro,INT,identifica a el libro
+titulo,char ,identifica el nombre del libro
+Autor,char ,Identifica al autor
+Genero,char ,identifica al genero
+Ano de publicacion,INT,Fecha
+,,
+Table usuarios,,
+,,
+campo,tipo de campo ,descripcion
+ID del usuario,INT,Identifica al usuario
+Nombre completo,char ,
+Direccion email,varchar,
+tipo de usuario,char ,
+,,
+Table prestamos-table prestamos,,
+campo,tipo de dato,
+Id_prestamo,INT,
+ID del usuario,INT,
+ID del libro,INT,
+Fecha_prestamo,INT,
+Fecha_devolucion,INT,
